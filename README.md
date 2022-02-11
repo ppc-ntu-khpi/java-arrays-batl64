@@ -13,6 +13,7 @@
 
 
 # 1. Заповніть масив простими числами з вказаного діапазону і виведіть його у вигляді рядка
+Моїм завданням було заповнити  масив простими числами з вказаного діапазону і виведіть його у вигляді рядка. Від початку A до кінця B.
 
-
+[![Run on Repl.it](https://repl.it/badge/github/ppc-ntu-khpi/identifiers-types-starter)](https://repl.it/github/ppc-ntu-khpi/java-arrays-batl64) [![Gitter]
 [![Gitter](https://badges.gitter.im/PPC-SE-2020/OOP.svg)](https://gitter.im/PPC-SE-2020/OOP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
