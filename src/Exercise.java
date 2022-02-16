@@ -8,20 +8,36 @@ public class Exercise {
  */
     public static void Calculate(int A, int B){
       int []array = new int [(B-A)];
-      int C=A;
-      String res="";
-         for(int i=0;i<(B-A);i++){
-          array[i]=C;
-          C++;
+      int C=0,count;
+      if(A<=2){
+        A=2;
+      }
+      
+         for(int i=A;i<B;i++){
+           count = 0;
+           for(int j=A;j<B;j++){             
+          if( i % j  == 0 ){
+           count++;
+          }         
+           }
+           if( i % 1  == 0 ){            
+           count++;
+          }
+           if(count == 2 && i/i==1 && i/1 == i ){
+              array[C]=i;
+               C++;
+           }
+          
          }
-         for(int i=0;i<(B-A);i++){        
+          for(int i=0;i<C;i++){        
           System.out.print(array[i]);
-          if(i != (B-A)-1){
+          if(i != C-1){
             System.out.print(",");
           }
           else{
              System.out.print(".");
           }          
          }
+
     }
 }
