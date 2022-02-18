@@ -15,7 +15,7 @@ public class Exercise {
       
          for(int i=A;i<B;i++){
            count = 0;
-           for(int j=A;j<B;j++){             
+           for(int j=2;j<B;j++){             
           if( i % j  == 0 ){
            count++;
           }         
